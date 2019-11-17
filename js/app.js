@@ -29,3 +29,11 @@ while (isSunk == false) {
 var stats = "You took " + guesses + " guesses to sink the battleship, " + "whick means your shooting accuracy was " + (3/guesses);
 
 alert(stats);
+
+var arr=[1,2,3]
+arr.find(function(element) {
+  if (element === 2) {
+    return element;
+  }
+  console.log(element)
+})
